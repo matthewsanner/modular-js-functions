@@ -12,3 +12,10 @@ function sortAsc(ar) {
 function sortDes(ar) {
     return ar.sort((a, b) => b - a);
 }
+
+//replaces character in string
+function replaceAt(string, index, char) {
+    let array = string.split('');
+    array[index] = char;
+    return array.join('');
+}
